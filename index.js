@@ -155,7 +155,7 @@ client.on('message', message => {
 
 //global warn
 client.on('message', message => {
-  if(message.channel.topic === 'gl0b41 w4rn' && !message.author.bot){
+  if(message.channel.topic === 'CHANEL TOPIC FOR WARN' && !message.author.bot){
       client.guilds.cache.forEach(guild=>{
         let channel = guild.channels.cache.find(ch =>ch.topic === 'br - global on');
         if(!channel) return;
